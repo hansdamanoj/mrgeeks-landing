@@ -139,10 +139,14 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify;
 }
 .feature--item{
-  background: #ffab3f;
+  background: #000;
   border: 1px solid #e5e5e5;
   color: #fff;
   padding: 1% 4%;
+  border-radius: 20px;
+  -webkit-box-shadow: -5px 5px 21px 1px rgba(0,0,0,1);
+-moz-box-shadow: -5px 5px 21px 1px rgba(0,0,0,1);
+box-shadow: -5px 5px 21px 1px rgba(0,0,0,1);
 }
 .icon, .title{
   text-align: center;
