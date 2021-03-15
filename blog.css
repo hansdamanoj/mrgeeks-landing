@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
 
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .display-4 {
   font-size: 2.5rem;
 }
@@ -60,9 +64,12 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 auto;
 }
 
-.h-250 { height: 250px; }
+.h-250 { height: 300px; }
 @media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
+  .h-md-250 { height: 300px; }
+  .h-md-250 h3{
+    min-height: 65px;
+  }
 }
 
 /* Pagination */
@@ -100,4 +107,74 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.banner{
+  background: url('assets/img/slider-02-min-1.jpg');
+  background-position: bottom;
+}
+.banner h1{
+  color: #a95d17;
+  text-transform: uppercase;
+  background: #eee9;
+  padding: 2%;
+}
+.banner p{
+  color: #000000;
+  text-transform: uppercase;
+  background: #eee9;
+  padding: 2%;
+}
+.testimonial{
+  background: #eee;
+  padding: 4%;
+}
+.content{
+  padding-top: 2%;
+}
+.title{
+  padding-top: 2%;
+}
+.content p{
+  text-align: justify;
+}
+.feature--item{
+  background: #ffab3f;
+  border: 1px solid #e5e5e5;
+  color: #fff;
+  padding: 1% 4%;
+}
+.icon, .title{
+  text-align: center;
+  padding-top: 2%;
+}
+.title{
+  padding-bottom: 2%;
+  padding-top: 12%;
+}
+.title-spl{
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+p.card-text.mb-auto {
+  text-align: justify;
+}
+i{
+  color: #d46f15;
+    font-size: 24px;
+}
+.link-secondary{
+  text-decoration: none;
+}
+.display-7 {
+  font-size: 35px;
+}
+.display-8 {
+  font-size: 25px;
+}
+h2.blog-post-title {
+  color: #d46f15;
+}
+label{
+  font-size: 12px;
 }
