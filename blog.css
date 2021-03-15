@@ -311,3 +311,9 @@ img.hover-shadow {
 .maps{
   cursor: pointer;
 }
+.carousel-caption {
+  text-align: center;
+  background-color: #00000059;
+  padding: 2px 16px;
+  color: white;
+}
