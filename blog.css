@@ -317,3 +317,15 @@ img.hover-shadow {
   padding: 2px 16px;
   color: white;
 }
+.floatContact{
+  position: absolute;
+  top: 200px;
+  right: 240px;
+  background: #ffe5e5;
+  width: 300px;
+}
+.carousel-caption {
+  text-align: left;
+  background-color: #00000059;
+  padding: 2px 16px;
+  color: white;
