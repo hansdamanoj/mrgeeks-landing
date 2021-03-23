@@ -335,6 +335,7 @@ img.hover-shadow {
 .call-to-action {
   background: orangered;
   color: #e5e5e5;
+  text-decoration: none;
   font-weight: 700;
   border: 0;
   border-radius: 25px;
